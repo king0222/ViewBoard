@@ -1,0 +1,40 @@
+{
+	"success": 1,
+	"list": [
+		{
+			"id": 1,
+			"price": "1777.00",
+			"name": "至简主义者",
+			"count": 5,
+			"status": "待审核",
+			"statusCode": 1
+		},
+		{
+			"id": 2,
+			"price": "3777.00",
+			"name": "至简主义者",
+			"count": 5,
+			"status": "未提交审核",
+			"statusCode": 2
+		},
+		{
+			"id": 3,
+			"price": "3777.00",
+			"name": "至简主义者",
+			"count": 5,
+			"status": "审核通过",
+			"statusCode": 3
+		},
+		{
+			"id": 4,
+			"price": "4777.00",
+			"name": "至简主义者",
+			"count": 3,
+			"status": "审核未通过",
+			"statusCode": 4
+		}
+	],
+	"total": 100,
+	"page": 1,
+	"pageNum": 6
+}

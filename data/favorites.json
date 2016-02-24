@@ -1,0 +1,32 @@
+{
+	"success": 1,
+	"list": [
+		{
+			"id": 1,
+			"imgUrl": "design/images/DIY/img_thumb.png"
+		},
+		{
+			"id": 2,
+			"imgUrl": "design/images/DIY/img_thumb3.png"
+		},
+		{
+			"id": 3,
+			"imgUrl": "design/images/DIY/img_thumb2.png"
+		},
+		{
+			"id": 4,
+			"imgUrl": "design/images/DIY/img_thumb3.png"
+		},
+		{
+			"id": 5,
+			"imgUrl": "design/images/DIY/img_thumb2.png"
+		},
+		{
+			"id": 6,
+			"imgUrl": "design/images/DIY/img_thumb.png"
+		}
+	],
+	"total": 100,
+	"page": 1,
+	"pageNum": 6
+}

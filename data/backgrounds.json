@@ -1,0 +1,38 @@
+{
+    "status": "1",
+    "list": [{
+        "dbg_id": "11",
+        "areaid": "1",
+        "image": "http:\/\/pic.fashome.cn\/a7845625ff2780091a120f2622f62a10.jpg",
+        "create_time": "2015-10-23 17:50:38",
+        "update_time": "2015-10-23 17:50:38",
+        "area_name": "\u5367\u5ba4",
+        "thumb_image": "http:\/\/pic.fashome.cn\/a7845625ff2780091a120f2622f62a10.jpg?imageView2\/2\/w\/100\/h\/100"
+    }, {
+        "dbg_id": "10",
+        "areaid": "8",
+        "image": "http:\/\/pic.fashome.cn\/48bd06705bf7fb7360ffe84c1a1e1629.jpg",
+        "create_time": "2015-10-21 17:26:10",
+        "update_time": "2015-10-21 17:26:10",
+        "area_name": "\u706f\u5177",
+        "thumb_image": "http:\/\/pic.fashome.cn\/48bd06705bf7fb7360ffe84c1a1e1629.jpg?imageView2\/2\/w\/100\/h\/100"
+    }, {
+        "dbg_id": "9",
+        "areaid": "2",
+        "image": "http:\/\/pic.fashome.cn\/284bf83b1010be448ace0c19c6321758.jpg",
+        "create_time": "2015-10-21 15:45:11",
+        "update_time": "2015-10-21 15:45:11",
+        "area_name": "\u4e66\u623f",
+        "thumb_image": "http:\/\/pic.fashome.cn\/284bf83b1010be448ace0c19c6321758.jpg?imageView2\/2\/w\/100\/h\/100"
+    }, {
+        "dbg_id": "8",
+        "areaid": "1",
+        "image": "http:\/\/pic.fashome.cn\/59c3bb48a7e6c07981a5ff8493155587.jpg",
+        "create_time": "2015-10-21 15:44:40",
+        "update_time": "2015-10-21 15:44:40",
+        "area_name": "\u5367\u5ba4",
+        "thumb_image": "http:\/\/pic.fashome.cn\/59c3bb48a7e6c07981a5ff8493155587.jpg?imageView2\/2\/w\/100\/h\/100"
+    }],
+    "length": 4,
+    "page": "1"
+}

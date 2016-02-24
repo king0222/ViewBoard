@@ -1,0 +1,40 @@
+{
+	"status": 1,
+	"list": [
+		{
+			"id": "perspectives01",
+			"imgUrl": "design/images/DIY/img_thumb.png"
+		},
+		{
+			"id": "perspectives02",
+			"imgUrl": "design/images/DIY/img_thumb2.png"
+		},
+		{
+			"id": "perspectives03",
+			"imgUrl": "design/images/DIY/img_thumb3.png"
+		},
+		{
+			"id": "perspectives04",
+			"imgUrl": "design/images/DIY/img_thumb.png"
+		},
+		{
+			"id": "perspectives05",
+			"imgUrl": "design/images/DIY/img_thumb2.png"
+		},
+		{
+			"id": "perspectives06",
+			"imgUrl": "design/images/DIY/img_thumb3.png"
+		},
+		{
+			"id": "perspectives05",
+			"imgUrl": "design/images/DIY/img_thumb7.png"
+		},
+		{
+			"id": "perspectives06",
+			"imgUrl": "design/images/DIY/img_thumb8.png"
+		}
+	],
+	"total": 100,
+	"page": 1,
+	"pageNum": 6
+}

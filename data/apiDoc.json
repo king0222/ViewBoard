@@ -1,0 +1,5 @@
+{
+	"background": "http://www.fashome.cn/design-getDiybackground.html&num=21&page=0&order=DESC",
+	"category": "http://www.fashome.cn/design-getCategroylist.html&keyword=沙发",
+	"favorites": "http://www.fashome.cn/design-favoriteAdd.html?act=add&user_id=1&dataid=50&idtype=mcid"
+}

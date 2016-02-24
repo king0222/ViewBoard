@@ -1,0 +1,458 @@
+{
+    "status": "1",
+    "list": [{
+        "catid": "120",
+        "parentid": null,
+        "name": "\u521b\u610f\u706f\u9970",
+        "level": "1",
+        "image": null,
+        "subs": {
+            "128": {
+                "catid": "128",
+                "parentid": "120",
+                "name": "\u53f0\u706f",
+                "level": "2",
+                "image": "f74a3339c6e9bd90fa1636107ebfded8.jpg",
+                "leaf": true
+            },
+            "198": {
+                "catid": "198",
+                "parentid": "120",
+                "name": "\u9676\u74f7\u53f0\u706f",
+                "level": "2",
+                "image": "0b6e7d56e217b45857c63b4c5db271e2.jpg",
+                "leaf": true
+            },
+            "199": {
+                "catid": "199",
+                "parentid": "120",
+                "name": "\u94dc\u827a\u53f0\u706f",
+                "level": "2",
+                "image": null,
+                "leaf": true
+            },
+            "200": {
+                "catid": "200",
+                "parentid": "120",
+                "name": "\u94c1\u827a\u53f0\u706f",
+                "level": "2",
+                "image": "",
+                "leaf": true
+            },
+            "201": {
+                "catid": "201",
+                "parentid": "120",
+                "name": "\u590d\u5408\u6750\u6599",
+                "level": "2",
+                "image": null,
+                "leaf": true
+            }
+        }
+    }, {
+        "catid": "213",
+        "parentid": null,
+        "name": "\u5bb6\u5c45\u65e5\u7528",
+        "level": "1",
+        "image": null,
+        "subs": {
+            "214": {
+                "catid": "214",
+                "parentid": "213",
+                "name": "\u9910\u5177",
+                "level": "2",
+                "image": "913edf85845d3c790c2eeb29835f5ecf.jpg",
+                "leaf": true
+            },
+            "215": {
+                "catid": "215",
+                "parentid": "213",
+                "name": "\u9152\u5177",
+                "level": "2",
+                "image": "33efcfe0fd7dad3db7d57679b5a418e6.jpg",
+                "leaf": true
+            },
+            "216": {
+                "catid": "216",
+                "parentid": "213",
+                "name": "\u8336\u5177",
+                "level": "2",
+                "image": "99cd876b85a29011bbd913a84f47f990.jpg",
+                "leaf": true
+            }
+        }
+    }, {
+        "catid": "122",
+        "parentid": null,
+        "name": "\u5bb6\u5c45\u9970\u54c1",
+        "level": "1",
+        "image": null,
+        "subs": {
+            "132": {
+                "catid": "132",
+                "parentid": "122",
+                "name": "\u88c5\u9970\u753b",
+                "level": "2",
+                "image": "f50fbd85362039826db54931629adb16.jpg",
+                "leaf": true
+            },
+            "133": {
+                "catid": "133",
+                "parentid": "122",
+                "name": "\u88c5\u9970\u6446\u4ef6",
+                "level": "2",
+                "image": "9c3e31df8b47e83a3686f7f25743f800.jpg",
+                "leaf": true
+            }
+        }
+    }, {
+        "catid": "148",
+        "parentid": null,
+        "name": "\u9970\u54c1\u6446\u4ef6",
+        "level": "1",
+        "image": null,
+        "subs": {
+            "149": {
+                "catid": "149",
+                "parentid": "148",
+                "name": "\u91d1\u5c5e\u6446\u4ef6",
+                "level": "2",
+                "image": "38671d60d810a8f1793b74fc20857ecc.jpg",
+                "leaf": true
+            },
+            "150": {
+                "catid": "150",
+                "parentid": "148",
+                "name": "\u9676\u74f7\u6446\u4ef6",
+                "level": "2",
+                "image": "389f4f166bd0ca079042920bf6204304.jpg",
+                "leaf": true
+            },
+            "203": {
+                "catid": "203",
+                "parentid": "148",
+                "name": "\u9676\u74f7\u6446\u4ef6",
+                "level": "2",
+                "image": null,
+                "leaf": true
+            },
+            "205": {
+                "catid": "205",
+                "parentid": "148",
+                "name": "\u6811\u8102\u6446\u4ef6",
+                "level": "2",
+                "image": null,
+                "leaf": true
+            },
+            "206": {
+                "catid": "206",
+                "parentid": "148",
+                "name": "\u5176\u4ed6\u6750\u6599\u6446\u4ef6",
+                "level": "2",
+                "image": null,
+                "leaf": true
+            }
+        }
+    }, {
+        "catid": "151",
+        "parentid": null,
+        "name": "\u5899\u9970\u753b\u827a",
+        "level": "1",
+        "image": null,
+        "subs": {
+            "209": {
+                "catid": "209",
+                "parentid": "151",
+                "name": "\u5370\u5237\u753b",
+                "level": "2",
+                "image": "9a34046abc336ac03c8858bbd3c08788.jpg",
+                "leaf": true
+            },
+            "208": {
+                "catid": "208",
+                "parentid": "151",
+                "name": "\u6cb9\u753b",
+                "level": "2",
+                "image": "1007595ee02ab3743468adc532e510a6.jpg",
+                "leaf": true
+            },
+            "157": {
+                "catid": "157",
+                "parentid": "151",
+                "name": "\u5b9e\u7269\u753b",
+                "level": "2",
+                "image": "dd15c2d5b9876eee2793814971100871.jpg",
+                "leaf": true
+            }
+        }
+    }, {
+        "name": "\u5bb6\u5177",
+        "parentid": "",
+        "catid": 1,
+        "level": 1,
+        "subs": {
+            "1": {
+                "name": "\u5367\u5ba4",
+                "areaid": "1",
+                "subs": {
+                    "173": {
+                        "catid": "173",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u6c99\u53d1",
+                        "areaid": "1",
+                        "image": "a823bc9f6304fd3ad66afe98df76a891.png"
+                    },
+                    "186": {
+                        "catid": "186",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u5e8a",
+                        "areaid": "1",
+                        "image": "7186c19c0d8de2e49e0acb0037534cde.jpg"
+                    },
+                    "187": {
+                        "catid": "187",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u5e8a\u5934\u67dc",
+                        "areaid": "1",
+                        "image": "0eb840055738bfa73e0c727aa88a8052.jpg"
+                    },
+                    "185": {
+                        "catid": "185",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u4e66\u6905\/\u8f6c\u6905",
+                        "areaid": "1",
+                        "image": "79b32140fb7761c4ecd382ccdeb81ba7.jpg"
+                    },
+                    "188": {
+                        "catid": "188",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u8863\u67dc",
+                        "areaid": "1",
+                        "image": "a27ebfe05c0d435c8e17348556c39863.jpg"
+                    },
+                    "189": {
+                        "catid": "189",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u6597\u67dc",
+                        "areaid": "1",
+                        "image": "433ffe803908c48aab01a9e6e2794cd1.jpg"
+                    },
+                    "190": {
+                        "catid": "190",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u5e8a\u5c3e\u51f3",
+                        "areaid": "1",
+                        "image": "0c16e562ca4ab9d45a8b5f70d38f1179.jpg"
+                    },
+                    "191": {
+                        "catid": "191",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u8863\u5e3d\u67b6",
+                        "areaid": "1",
+                        "image": "f07a0e534ab197120fa4b6e6b9dbd3bb.jpg"
+                    }
+                }
+            },
+            "2": {
+                "name": "\u4e66\u623f",
+                "areaid": "2",
+                "subs": {
+                    "173": {
+                        "catid": "173",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u6c99\u53d1",
+                        "areaid": "2",
+                        "image": "a823bc9f6304fd3ad66afe98df76a891.png"
+                    },
+                    "183": {
+                        "catid": "183",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u4e66\u684c\/\u5de5\u4f5c\u53f0",
+                        "areaid": "2",
+                        "image": "d817aa8ab6a2cd49856690affb040325.jpg"
+                    },
+                    "184": {
+                        "catid": "184",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u4e66\u67dc\/\u4e66\u67b6",
+                        "areaid": "2",
+                        "image": "17619081e2309179c98062e3cdf9f5ad.jpg"
+                    },
+                    "185": {
+                        "catid": "185",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u4e66\u6905\/\u8f6c\u6905",
+                        "areaid": "2",
+                        "image": "79b32140fb7761c4ecd382ccdeb81ba7.jpg"
+                    }
+                }
+            },
+            "3": {
+                "name": "\u5ba2\u5385",
+                "areaid": "3",
+                "subs": {
+                    "173": {
+                        "catid": "173",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u6c99\u53d1",
+                        "areaid": "3",
+                        "image": "a823bc9f6304fd3ad66afe98df76a891.png"
+                    },
+                    "174": {
+                        "catid": "174",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u8336\u51e0",
+                        "areaid": "3",
+                        "image": "77a355b5f1cf55155b00c801b04495db.jpg"
+                    },
+                    "175": {
+                        "catid": "175",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u89d2\u51e0",
+                        "areaid": "3",
+                        "image": "4b4094ffd350e7943e6f240fe1f122b9.jpg"
+                    },
+                    "176": {
+                        "catid": "176",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u7535\u89c6\u67dc",
+                        "areaid": "3",
+                        "image": "524737ee663ad6a5aff8b6395d0f97be.jpg"
+                    },
+                    "177": {
+                        "catid": "177",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u978b\u67dc",
+                        "areaid": "3",
+                        "image": "47a34c56ec84bfeb108bf9e02dcc2677.jpg"
+                    },
+                    "178": {
+                        "catid": "178",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u9152\u67dc\/\u88c5\u9970\u67dc",
+                        "areaid": "3",
+                        "image": "7d4f8277703e3fd4e8d67bbc086edd58.jpg"
+                    },
+                    "179": {
+                        "catid": "179",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u4f11\u95f2\u6905\/\u51f3",
+                        "areaid": "3",
+                        "image": "4f4d79b562a6a5879d52714623bd3a2a.jpg"
+                    }
+                }
+            },
+            "4": {
+                "name": "\u9910\u5385",
+                "areaid": "4",
+                "subs": {
+                    "173": {
+                        "catid": "173",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u6c99\u53d1",
+                        "areaid": "4",
+                        "image": "a823bc9f6304fd3ad66afe98df76a891.png"
+                    },
+                    "180": {
+                        "catid": "180",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u9910\u684c",
+                        "areaid": "4",
+                        "image": "07175609978628c723c9a8b0d1946232.jpg"
+                    },
+                    "181": {
+                        "catid": "181",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u9910\u6905",
+                        "areaid": "4",
+                        "image": "862c9651688fed28f53f5465a734263f.jpg"
+                    },
+                    "182": {
+                        "catid": "182",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u9910\u8fb9\u67dc",
+                        "areaid": "4",
+                        "image": "3ca7876dade70a590512357c790bc54f.jpg"
+                    }
+                }
+            },
+            "5": {
+                "name": "\u513f\u7ae5\u623f",
+                "areaid": "5",
+                "subs": {
+                    "173": {
+                        "catid": "173",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u6c99\u53d1",
+                        "areaid": "5",
+                        "image": "a823bc9f6304fd3ad66afe98df76a891.png"
+                    },
+                    "192": {
+                        "catid": "192",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u513f\u7ae5\u5e8a",
+                        "areaid": "5",
+                        "image": "b48abf6a3d1e486a286e821de5d7c0da.jpg"
+                    },
+                    "193": {
+                        "catid": "193",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u513f\u7ae5\u8863\u67dc",
+                        "areaid": "5",
+                        "image": "7867f731b5b20238ed43cb37dd1af894.jpg"
+                    },
+                    "196": {
+                        "catid": "196",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u513f\u7ae5\u5e8a\u5934\u67dc",
+                        "areaid": "5",
+                        "image": "6d1000d57b22ef6c9ed7066176d6f996.jpg"
+                    },
+                    "194": {
+                        "catid": "194",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u513f\u7ae5\u4e66\u684c\/\u7535\u8111\u684c",
+                        "areaid": "5",
+                        "image": "33cebd4cc6061a424ac7cb274475c75c.jpg"
+                    },
+                    "195": {
+                        "catid": "195",
+                        "parentid": "119",
+                        "level": "2",
+                        "name": "\u513f\u7ae5\u6905",
+                        "areaid": "5",
+                        "image": "cff4e42d4d1174d2d4ed47090ca4a399.jpg"
+                    }
+                }
+            }
+        }
+    }],
+    "length": 6
+}
