@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    -webkit-box-shadow: outset 0 0 6px rgba(0,0,0,.3);
+    background-color: #aaa;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: outset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    background-color: #F5F5F5;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1452493774_6969848.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1452493774_6969848.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1452493774_6969848.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1452493774_6969848.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1452493774_6969848.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+                    
+                                       
+
+.iconfont{
+    font-family: iconfont!important;
+    font-size: 18px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #333;
+}
+
+.selected .iconfont {
+    color: #87b383;
+}
+.disabled .iconfont {
+    color: #aaa;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+.centerText {
+    text-align: center;
+}
+
+
+body {
+    background: rgb(54, 54, 54);
+}
+
+.panel {
+    position: fixed;
+    border: 1px solid rgb(27, 27, 27);
+    background: rgb(235, 235, 235);
+}
+
+
+.toolsList {
+    display: inline-block;
+}
+
+.mainTools {
+    display: none;
+    z-index: 99999;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+.mainTools .tool {
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px auto;
+    padding: 0 5px;
+    z-index: 99999;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+}
+.mainTools .tool:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.mainTools .tool.selected {
+    background-size: 100%;
+    color: #87b383;
+}
+.mainTools .crop-operation {
+    display: inline;
+    width: initial;
+}
+.mainTools .crop-operation {
+    float: right;
+}
+.mainTools .crop-operation li {
+    display: inline;
+    background: none;
+}
+.mainTools .crop-operation li:hover {
+    background: none;
+}
+.mainTools .crop-operation li i {
+    color: #fff;
+    font-size: 22px;
+}
+.mainTools .crop-operation li i:hover {
+    color: #87b383;
+}
+
+.magicWandTool { background: url(../images/magic_wand_100.png) no-repeat 0 0; }
+.pathSelectionTool { background: url(../images/black_arrow_100.png) no-repeat 0 0; }
+/*.penTool { background: url(../images/pen_100.png) no-repeat 0 0; }*/
+.zoomTool { background: url(../images/zoom_100.png) no-repeat 0 0; }
+.magicWandTool, .pathSelectionTool, .zoomTool {
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+
+.cropHolder {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: strecth;
+    -ms-flex-align: strecth;
+        align-items: strecth;
+}
+.toolOptions {
+    z-index: 99999;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 75px;
+}
+
+.toolOptions .option {
+    padding: 4px;
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+.pasteBoard {
+    position: relative;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background: url(../images/bg.png) repeat;)
+}
+
+.crop-option {
+    width: 220px;
+    margin-left: 10px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+        align-items: stretch;
+}
+
+.crop-option .views,
+.crop-option .colors {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.crop-option .jscolor {
+    height: 26px;
+    line-height: 26px;
+    padding: 0;
+    width: 80px;
+    border: none;
+    box-shadow: rgb(135, 179, 131) 0px 0px 5px;
+}
+.tooltipster-content .add-to-canvas,
+#aside .go-login,
+.crop-option .apply-color,
+.crop-option .get-color {
+    border: none;
+    background: #87b383;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .1s ease-in;
+}
+.crop-option button[disabled] {
+    background: #ccc;
+}
+.crop-option .jscolor[disabled] {
+    opacity: 0.5;
+}
+#artCanvas {
+    z-index: 100;
+    height: 0;
+    transition: all 0.1s ease-out;
+
+    image-rendering: optimizeSpeed;
+    image-rendering:-o-crisp-edges;
+    image-rendering:-webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+}
+
+#selectionCanvas {
+    position: absolute;
+    z-index: 200;
+}
+
+#penCanvas {
+    position: absolute;
+    z-index: 300;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* croper style*/
+
+.croper {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #888;
+    position: absolute;
+    cursor: move;
+    z-index: 9999;
+}
+.cp-node {
+    z-index: 999;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #f00;
+}
+.cp-node-1 {
+    cursor: nw-resize;
+    top: -4px;
+    left: -4px;
+}
+.cp-node-2 {
+    cursor: ne-resize;
+    top: -4px;
+    right: -4px;
+}
+.cp-node-3 {
+    cursor: se-resize;
+    bottom: -4px;
+    right: -4px;
+}
+.cp-node-4 {
+    cursor: sw-resize;
+    bottom: -4px;
+    left: -4px;
+}
+.cp-node-5 {
+    cursor: n-resize;
+    top: -4px;
+    left: 50%;
+    margin-left: -4px;
+}
+.cp-node-6 {
+    cursor: e-resize;
+    right: -4px;
+    top: 50%;
+    margin-top: -4px;
+}
+.cp-node-7 {
+    cursor: s-resize;
+    bottom: -4px;
+    left: 50%;
+    margin-left: -4px;
+}
+.cp-node-8 {
+    cursor: w-resize;
+    left: -4px;
+    top: 50%;
+    margin-top: -4px;
+}
+
+.rebuild {
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 0 10px;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.rebuild:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #87b383;
+    border: 2px solid #87b383;
+}
+.bg-tools {
+    background: rgba(200, 200, 200, 0.5);
+    display: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    z-index: 999;
+    position: absolute;
+}
+.bg-tools span {
+    display: inline-block;
+    cursor: pointer;
+}
+.bg-tools span.lock i,
+.bg-tools span.active,
+.bg-tools span:hover i{
+    color: #87b383
+}
+.bg-tools .disabled {
+    display: none;
+}
+
+
+.colors .color{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.green {
+    background: green;
+}
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.orange {
+    background: orange;
+}
+.cyan {
+    background: cyan;
+}
+.black {
+    background: black;
+}
+.white {
+    background: white;
+}
+.yellow {
+    background: yellow;
+}
+.gray {
+    background: gray;
+}
+.Brown,
+.brown {
+    background: brown;
+}
+.purple {
+    background: purple;
+}
+
+
+/** jquery dialog style fixed */
+.ui-dialog .ui-dialog-title {
+    color: #1c94c4;
+}
+.ui-widget-header {
+    border: none;
+    background: none;
+}
+.ui-widget-content {
+    background: #fff;
+    border-radius: 0;
+}
+.ui-widget-header .ui-state-default {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: none;
+}
+.ui-state-default .ui-icon,
+.crop-dialog .ui-state-default .ui-icon {
+    width: 32px;
+    height: 32px;
+    left: 0;
+    top: 0;
+    background: url(../images/iconfont-guanbi.png) no-repeat;
+    margin-left: 5px;
+}
+.crop-dialog .ui-dialog .ui-dialog-content {
+    padding: 0;
+}
+
+/** tooltipster style */
+.tooltipster-default {}
+.tooltipster-default {
+    border: 1px solid #87b383;
+    background: #fff;
+    color: #666;
+    pointer-events: inherit;
+}
+.tooltipster-default .tooltipster-content {
+    line-height: 20px;
+}
+.tooltipster-arrow-top span {
+    border-color: #fff;
+}
