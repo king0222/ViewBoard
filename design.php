@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="renderer" content="webkit">
-  <title>花生居DIY设计</title>
+  <title>DIY设计</title>
   <meta name="keywords" content="<?php echo trig_mvc_template::$keywords; ?>">
   <meta name="description" content="<?php echo trig_mvc_template::$description; ?>">
   <script type="text/javascript">
